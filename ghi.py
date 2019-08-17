@@ -31,7 +31,6 @@ ghi = LINE("alishjoker7@gmail.com","aliahmadi11")
 ghi.log("Auth Token : " + str(ghi.authToken))
 ghi.log("Timeline Token : " + str(ghi.tl.channelAccessToken))
 
-print(SUCCES LOGIN TO NAUGHTY FINGER)
 
 waitOpen = codecs.open("Max2.json","r","utf-8")
 settingsOpen = codecs.open("max.json","r","utf-8")
