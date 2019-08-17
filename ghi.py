@@ -27,7 +27,7 @@ _session = requests.session()
 #======================================================================================
 botStart = time.time()
 #======================================================================================
-ghi = LINE("gmail","pass")
+ghi = LINE("")
 ghi.log("Auth Token : " + str(ghi.authToken))
 ghi.log("Timeline Token : " + str(ghi.tl.channelAccessToken))
 
